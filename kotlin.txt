@@ -1,0 +1,204 @@
+CODIGO
+fun main() {
+     
+    
+    
+    /*	//Prueba de VAriable
+		val cristian:Int=2//Variable cuyo valor no cambia 
+		var variablecambia:Int=132 //Variable cuyo valor cambia 
+    
+   
+    	//CAMBIAR DE VALOR A VAR
+    
+    	variablecambia=20;
+    	println(variablecambia)
+        
+        
+		//Variable que no cambia String
+    	val helou:String="Helou World"
+   		println(helou)
+    
+    
+    	//Uso de uppercase-LowerCase
+    
+    	val languageName = "KOTIL"
+		val upperCaseName = languageName.toUpperCase()
+    	val lowerCaseName = languageName.toLowerCase()
+        println(lowerCaseName)
+        println(upperCaseName)
+
+
+
+
+    	//Condicionales
+    	if(cristian==32){
+        println("Felicitaciones el numero es correcto")
+   		}else{
+        println("MAL")
+    	}
+    
+  
+    
+    	//When, para hacer varios condicionales 
+   		val resulktado= when{
+        cristian==42->"UUYYY pana se equivoco"
+        cristian==32->"EPPPAaa pana la hizo bien"
+        cristian==20->"¿Qué paso manito?"
+        cristian==110->"NOOO mi pez, esta mal mal "
+        else -> "The answer eludes me."
+    	}
+   		println(resulktado)
+     
+     
+    
+    	//Ejercicio de edad
+    	//con una edad predeterminada y nombre, validamos en que grado deberia ir el chamaco
+    
+    	var edad:Int=60
+    	var nombre:String="Daniel"
+    	var opcion=when{
+        edad <5->"El niño "+nombre+" Debe ir en jardin"
+        edad <14->"El niño "+nombre+" Debe ir en primaria"
+        edad <20->"EL adolecente "+nombre+" Debe ir en preparatoria"
+        else->"Ese"+nombre+" ya no es un niño ni un adolenecte "        
+    	}        
+   		println(opcion)
+   		*/
+    
+    	//EJERCICIO DE FUNCIONES
+    	//SUMAR DOS NUMERO, Y DETECTAR MAYOR Y MENOR 
+    /*
+    	var num1:Int=20
+    	var num2:Int=500
+ 
+    	//fUNCION SUMAR
+   		 fun sumarnumeros(num1:Int,num2:Int){
+         val result:Int=num1+num2
+            println("La suma es "+result)
+			}
+   		//fUNCION COMPARAR DOS NUMEROS
+    
+		fun compararnumero(num1:Int,num2:Int): String {
+       	val mostrar=if(num1>num2){
+        "EL numero mayor es "+num1+" y el menor es "+num2
+       											
+       	}else{
+        "EL numero mayor es "+num2+" y el menor es "+num1
+         }
+      	return mostrar
+		}*/
+   /*
+   		print(sumarnumeros(num1,num2))
+
+		print(compararnumero(num1,num2))*/
+
+
+
+   
+    
+    //Repaso de funcion
+    
+    /*
+    var hola:Int=30
+    var num:Int=15
+    var num2:Int=20
+    
+    
+    
+    
+    fun sumarnumero(num:Int,num2:Int){
+        var result:Int=num+num2
+        print("la suma es"+result)
+        
+    }
+    print(sumarnumero(num,num2))*/
+    
+    //Ejercicio When
+    
+    //Mostrar mensaje deoendiendo el numero 
+    
+   /*
+    var num1: Int=10
+    var num2:Int=20
+    
+    var opcion=when{
+        num1<num2->"el numero mayor es"+num2
+        num1>num2->"El numero mayor es"+num1
+        num1==num2->"Los números son iguales"
+        else->"Datos erróneos"
+        }
+        print (opcion)*/
+        
+        //Ciclos for
+        /*
+        var hasta:Int=10
+        for(holi in 1..hasta){ 
+           println("los numero son"+holi)
+        }
+        */
+        
+        //tabla de multiplicar
+        /*
+         val num:Int = 5
+
+         for (i in 1..10) {
+          var product:Int = num * i
+            println("$num * $i = $product")
+        	}
+				*/
+                
+                
+			//tabla de multiplicar todos los numeros
+			/*
+            for(j in 1..10){
+                for(m in 1..10){
+                    var product:Int = j * m
+                    println("$j * $m = $product \n")
+                }
+            */
+    
+    //Ciclo while
+    
+    /*var dia:Int=1
+    while(dia<7){
+        if(dia==1){
+           println("Epaa, tristemente le toca trabajar ya que hoy hsta ahora es el dia $dia") 
+        }
+        else{
+            println("Epaa, tristemente le toca trabajar ya que hoy hsta ahora es el dia $dia")
+
+        }
+        
+        dia=dia+1
+        
+        
+    }
+    
+    print("UYYY hsta que porfin descansa que es el dia $dia")*/
+            
+           //ejercicio sencillo while
+           /*
+           var i = 1
+			while (i <= 100) {
+    		println(i)
+    		i++
+                
+}*/
+           //Ejercicio while de numero pares
+           /*
+           var numero:Int=2
+    		while(numero<=100){
+                if(numero%2==0){
+                    println("USted ingreso un numero par estos son los numero del 1 al 100: $numero")
+                }
+                
+                    numero++
+            }
+
+   					println("Se acabo")*/
+   
+    
+}
+        
+  
+   
